@@ -10,11 +10,17 @@ Suppose that we're working on a digital transformation for a big retailer. This 
 
 But, to have those stores available and know its coverage area (to match which store attend that region), we need to register those areas in a database, and ensure that they're valid and working.
 
-### Well, let's try to solve this problem!
+Later, the back-end team will implement an API which receives the user's geolocation and answers with the nearest store geolocation according to the coverage area and distance to the store geolocation.
+
+# Well, let's try to solve this problem!
 
 ## About the Challenge
 
-We'll need your help to create a script that reads the [JSON](files/samples.json), validate and fix (if needed).
+We'll need your help to code something that:
+  - reads the [GeoJSON sample](files/samples.json)
+  - parse and validate the geoshape
+  - fix the broken shapes
+  - insert the values in a database
 
 The JSON have a format similar to
 
